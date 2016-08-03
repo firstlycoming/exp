@@ -1,0 +1,256 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	color: #bababa;
+	font: 14px "宋体";
+	background: #FFF;
+	line-height: 40px;
+}
+
+.header1 {
+	height: 40px;
+	border-bottom: 1px solid #ebebeb;
+	margin: auto;
+}
+
+.header2 {
+	width: 1000px;
+	margin-top: 3px;
+	heigth: 37px;
+	border-bottom: 1px solid #ebebeb;
+	margin: auto;
+	color: #666;
+}
+
+.left {
+	width: 580px;
+	height: 37px;
+	float: left;
+}
+
+.right {
+	width: 320px;
+	heigth: 37px;
+	float: right;
+}
+
+.x_1 {
+	background: url(images/weixin.gif) left no-repeat;
+	padding-left: 23px;
+}
+
+.x_2 {
+	background: url(images/weibo.gif) left no-repeat;
+	padding-left: 23px;
+}
+
+.right a {
+	text-decoration: none;
+	color: #666;
+}
+
+.clear {
+	clear: both;
+	float: none;
+	margin: auto;
+}
+
+.top_log {
+	width: 1000px;
+	height: 70px;
+	border-bottom: #087067 solid 3px;
+	margin: auto;
+}
+
+.log {
+	height: 56px;
+	width: 220px;
+	position: relative;
+	left: 60px;
+	top: 6px;
+	float: left;
+}
+
+.search {
+	width: 400px;
+	position: relative;
+	left: 60px;
+	top: 15px;
+	float: left;
+	background: url(images/search1.gif);
+	height: 40px;
+}
+
+.ibm {
+	float: right;
+}
+
+.ibb {
+	width: 245px;
+	height: 25px;
+	margin-top:6px;
+	margin-left:6px;
+	opacity: 0;
+	-moz-opacity: 0;
+	-o-opacity: 0;
+	-webkit-opacity: 0;
+	-ms-opacity: 0;
+}
+.ibb:hover{opacity: 1;
+	-moz-opacity: 1;
+	-o-opacity: 1;
+	-webkit-opacity: 1;
+	-ms-opacity: 1;}
+.ibb:visited{opacity: 1;
+	-moz-opacity: 1;
+	-o-opacity: 1;
+	-webkit-opacity: 1;
+	-ms-opacity: 1;}
+.search #h_ibtn {
+	padding-left: 15px;
+	float: left;
+	z-index: 5;
+	margin-top: 1px;
+	color: #666;
+}
+
+.search .ibtn {
+	width: 50px;
+	float: left;
+	background: url(images/small.gif) right no-repeat;
+	background-size: 10px 5px;
+	-o-background-size: 10px 5px;
+	-ms-background-size: 10px 5px;
+	-moz-background-size: 10px 5px;
+	-webkit-background-size: 10px 5px;
+}
+
+.search .ibtn a:hover {
+	text-decoration: underline;
+}
+
+.tel {
+	width: 200px;
+	height: 34px;
+	position: relative;
+	left: 730px;
+	top: 17px;
+	background: url(http://www.chongqingol.com/ind/telbg.gif) no-repeat center;
+}
+
+.top {
+	width: 1000px;
+	height: 95px;
+	
+	margin: auto;
+}
+
+.menu_line {
+	width: 100%;
+	width: 60;
+	overflow: hidden;
+}
+
+.menu_1 {
+	width: 216px;
+	height: 46px;
+	
+	padding: 8px 5px;
+    float: left;
+    border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+    line-height: 24px;
+    overflow: hidden;
+}
+.menu_1 ol {
+    float: left;
+     font-weight: bold; 
+	 color:#000;
+	 
+	
+}
+.menu_2 ol ,.menu_3 ol,.menu_4 ol,.menu_5 ol{
+    float: left;
+     font-weight: bold; 
+	 color:#000;
+	padding: 0 9px;
+	width:29px;
+	display:block;
+}
+
+ul, ol {
+    list-style: none;
+}
+.top .menu_1 ul,.top .menu_2 ul,.top .menu_3 ul,.top .menu_4 ul,.top .menu_5 ul {
+    float: right;
+    width: 140px;
+}
+.top .menu_1 ul li, .top .menu_2 ul li, .top .menu_3 ul li, .top .menu_4 ul li, .top .menu_5 ul li {
+    float: left;
+    padding: 0 9px;
+    display: block;
+	color:#000;
+}
+.menu_2 {
+	width: 180px;
+	height: 46px;
+	padding:8px 5px;
+	border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	float: left;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.menu_3 {
+	width: 155px;
+	height: 46px;
+	padding: 8px 5px;
+	float: left;
+	 border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.menu_4 {
+	width: 205px;
+	height: 46px;
+	padding: 8px 5px;
+	float: left;
+	border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.menu_5 {
+	width: 222px;
+	height: 46px;
+	padding: 8px 5px;
+	float: left;
+	border-bottom: 1px dotted #ccc;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.container {
+	height: 2136px;
+	width: 1000px;
+	background: #FC3;
+	margin: auto;
+}
+
+.footer {
+	height: 164px;
+	width: 1000px;
+	background: #000;
+	margin: auto;
+}
