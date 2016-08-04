@@ -22,7 +22,7 @@ body {
 	border-bottom: 1px solid #ebebeb;
 	margin: auto;
 }
-
+.header1 a{color:#666;}
 .header2 {
 	width: 1000px;
 	margin-top: 3px;
